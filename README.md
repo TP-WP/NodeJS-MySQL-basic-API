@@ -14,19 +14,19 @@ DB_NAME = 'testDB'
 Uso de la API:  
 / - ruta por defecto - mensaje de bienvenida  
 /usuarios - unica ruta ademas de la por defecto  
-&ensp-GET: sin parametros. Devuelve lista completa de usuarios sin ordenar sin paginacion  
-&ensp-POST: crea un nuevo usuario. la id se actualiza automaticamente. Parametros:  
-&ensp&ensp-@nombre  
-&ensp&ensp-@edad  
-&ensp&ensp-@rut  
-&ensp&ensp-@telefono  
-&ensp&ensp-@direccion  
-&ensp-PUT: actualiza un usuario determinado por su id. Parametros:  
-&ensp&ensp-@idUsuario  
-&ensp&ensp-@nombre  
-&ensp&ensp-@edad  
-&ensp&ensp-@rut  
-&ensp&ensp-@telefono  
-&ensp&ensp-@direccion  
-&ensp-DELETE: elimina un usuario determinado por su id. Parametros:  
-&ensp&ensp-@idUsuario
+&ensp;-GET: sin parametros. Devuelve lista completa de usuarios sin ordenar sin paginacion  
+&ensp;-POST: crea un nuevo usuario. la id se actualiza automaticamente. Parametros:  
+&ensp;&ensp;-@nombre  
+&ensp;&ensp;-@edad  
+&ensp;&ensp;-@rut  
+&ensp;&ensp;-@telefono  
+&ensp;&ensp;-@direccion  
+&ensp;-PUT: actualiza un usuario determinado por su id. Parametros:  
+&ensp;&ensp;-@idUsuario  
+&ensp;&ensp;-@nombre  
+&ensp;&ensp;-@edad  
+&ensp;&ensp;-@rut  
+&ensp;&ensp;-@telefono  
+&ensp;&ensp;-@direccion  
+&ensp;-DELETE: elimina un usuario determinado por su id. Parametros:  
+&ensp;&ensp;-@idUsuario
