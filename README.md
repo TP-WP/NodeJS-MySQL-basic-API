@@ -1,4 +1,5 @@
-npm start para iniciar servidor de api
+npm start para iniciar servidor de api  
+por defecto, acceder a localhost:3050 para acceder a api
 
 MySQL: para crear y configurar base de datos  
 mysql -u username -p userpass CREATE DATABASE testDB  
