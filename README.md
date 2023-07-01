@@ -10,3 +10,23 @@ DB_USER = 'username' //cambiar por usuario de mysql
 DB_HOST = 'localhost'  
 DB_PASSWORD = 'userpass' //cambiar por clave de usuario de mysql  
 DB_NAME = 'testDB'
+
+Uso de la API:  
+/ ruta por defecto - mensaje de bienvenida  
+/usuarios - unica ruta ademas de la por defecto  
+ -GET: sin parametros. Devuelve lista completa de usuarios sin ordenar sin paginacion  
+ -POST: crea un nuevo usuario. la id se actualiza automaticamente. Parametros:  
+ -@nombre  
+ -@edad  
+ -@rut  
+ -@telefono  
+ -@direccion  
+ -PUT: actualiza un usuario determinado por su id. Parametros:  
+ -@idUsuario  
+ -@nombre  
+ -@edad  
+ -@rut  
+ -@telefono  
+ -@direccion  
+ -DELETE: elimina un usuario determinado por su id. Parametros:
+-@idUsuario
